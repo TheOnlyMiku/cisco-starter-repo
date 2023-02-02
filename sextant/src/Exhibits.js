@@ -1,10 +1,10 @@
 import React from 'react'
-
-const Exhibits = ({heading}) => {
+import "./Exhibits.css"
+const Exhibits = ({heading, children}) => {
   return (
-    <div>
-        <h2>Hello Header</h2>
-        <p>Hello children</p>
+    <div className="data-blocks">
+      <h1>{heading}</h1>
+      <h2>{children}</h2>
     </div>
   )
 }

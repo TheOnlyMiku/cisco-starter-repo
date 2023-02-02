@@ -1,0 +1,18 @@
+.data-blocks {
+  background-color: #93dfd5;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(15, 91, 161);
+  margin-bottom: 20px;
+}
+
+.data-blocks h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.data-blocks h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
