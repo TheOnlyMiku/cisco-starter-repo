@@ -5,23 +5,24 @@ import Exhibits from './Exhibits';
 
 
 function App() {
-  let heading = "Highlights"
-  let children = "My Highlights"
+  
   return (
     <div className="App">
-      <Banner />
+      <Banner 
+      banner = "Sextant" 
+      />
        
      <Exhibits 
-     heading={heading}
-     children={children}
+     heading= "Exhibit 1"
+     children= "Child 1"
      />
       <Exhibits 
-     heading={heading}
-     children={children}
+     heading="Exhibit 2"
+     children="Child 2"
      />
       <Exhibits 
-     heading={heading}
-     children={children}
+     heading="Exhibit 3"
+     children="Child 3"
      />
     </div>
   );

@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {Component} from 'react'
 import "./Exhibits.css"
-const Exhibits = ({heading, children}) => {
-  return (
-    <div className="data-blocks">
-      <h1>{heading}</h1>
-      <h2>{children}</h2>
-    </div>
-  )
+class Exhibits extends Component {
+  render(){
+    return(
+      <div className="data-blocks">
+        <h1>{this.props.heading}</h1>
+        <div className="content">
+          {this.props.children}
+        </div>
+      </div>
+    )
+  }
 }
+
 
 export default Exhibits
