@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Exhibits = () => {
+const Exhibits = ({heading}) => {
   return (
     <div>
-        <h2>Hello</h2>
-        
+        <h2>Hello Header</h2>
+        <p>Hello children</p>
     </div>
   )
 }
